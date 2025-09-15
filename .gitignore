@@ -1,5 +1,9 @@
-# Node modules 
-node_modules/ 
-.env 
-.DS_Store 
-.vscode/ 
+# Node modules
+node_modules/
+
+# Env files
+.env
+
+# OS / IDE files
+.DS_Store
+.vscode/
