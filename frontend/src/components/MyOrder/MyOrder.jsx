@@ -122,6 +122,15 @@ const MyOrder = () => {
     }
   };
 
+  // Loading check
+if (loading) {
+  return (
+    <div className="min-h-screen flex items-center justify-center text-amber-400 text-xl">
+      Loading orders...
+    </div>
+  );
+}
+
   //   In Case Of Error
   if (error)
     return (
