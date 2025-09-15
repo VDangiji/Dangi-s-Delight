@@ -13,7 +13,7 @@ import {
 import { iconClass, inputBase } from "../../assets/dummydata.js";
 import axios from "axios";
 
-const url = "http://localhost:4000";
+const url = "https://dangi-s-delight-backend.onrender.com";
 const Login = ({ onLoginSuccess, onClose }) => {
   const [showToast, setShowToast] = useState({
     visible: false,

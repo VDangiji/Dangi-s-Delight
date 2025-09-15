@@ -1,6 +1,6 @@
 import userModal from "./../modals/userModal.js";
 import jwt from "jsonwebtoken";
-import bycrypt from "bcrypt";
+import bycrypt from "bcryptjs";
 import validator from "validator";
 
 //Login Function
