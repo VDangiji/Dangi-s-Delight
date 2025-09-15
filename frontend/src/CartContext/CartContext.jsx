@@ -7,7 +7,6 @@ import React, {
 } from "react";
 
 import axios from "axios";
-// import { clearCart } from './../../../backend/controllers/cartController';
 const CartContext = createContext();
 
 // Reducer handling Cart Actions Like Add, Remove, Update Quantity And Item.

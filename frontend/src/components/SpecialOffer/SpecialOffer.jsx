@@ -9,7 +9,6 @@ import {
 } from "./../../assets/dummydata.js";
 import FloatingParticle from "./../../components/FloatingParticle/FloatingParticle.jsx";
 import axios from "axios";
-import { CartItem } from "./../../../../backend/modals/cartModal";
 const SpecialOffer = () => {
   const [showAll, setShowAll] = useState(false);
   const [items, setItems] = useState([]);
